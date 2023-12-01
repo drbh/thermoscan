@@ -1,0 +1,10 @@
+ [Unit]
+ Description=House Temp RPI
+ After=multi-user.target
+
+ [Service]
+ Type=idle
+ ExecStart=/home/pi/thermoscan-dev > /home/pi/sample.log 2>&1
+
+ [Install]
+ WantedBy=multi-user.target
