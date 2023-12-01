@@ -18,6 +18,8 @@ The total setup cost for this project can be as little as $25 (1 RPI Zero W + 1 
 - 7 GOVEE H5075 thermometers (~$10 each)
 - 1 free Grafana Cloud account
 
+<img width="1272" alt="dashboard-snap" src="https://github.com/drbh/thermoscan/assets/9896130/e1943c41-353f-4950-83ce-45fdc5622038">
+
 # RPI setup
 
 This code was written to work with the Raspberry Pi OS (port of Debian Bullseye) image installed with the default `Raspberry Pi Imager` tool. The only changes made were adding our local wifi network in the settings and enabling SSH (couple clicks in the UI).
